@@ -1,6 +1,6 @@
-# LexiFlow
+# Lanci
 
-Public legal pages for the LexiFlow app.
+Public legal pages for the Lanci app.
 
 - Privacy policy: https://sebaWEI.github.io/lexiflow/privacy.html
 
