@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>LexiFlow Privacy Policy</title>
+  <style>
+    body { font-family: ui-sans-serif, system-ui, sans-serif; max-width: 40rem; margin: 2rem auto; padding: 0 1.25rem; line-height: 1.5; color: #111; }
+    h1 { font-size: 1.6rem; }
+    h2 { font-size: 1.1rem; margin-top: 1.6rem; }
+    p, li { color: #222; }
+    .meta { color: #666; font-size: .9rem; }
+    a { color: #0a58ca; }
+  </style>
+</head>
+<body>
+  <h1>LexiFlow Privacy Policy</h1>
+  <p class="meta">Last updated: 22 August 2026</p>
+  <p>LexiFlow is an English vocabulary app for Mac and iPhone. This policy describes what stays on your device, what is synced when you sign in, and what is sent for AI features.</p>
+
+  <h2>On your device only</h2>
+  <ul>
+    <li>Lookup encounter history (when and where you looked up words)</li>
+    <li>App settings and preferences</li>
+    <li>Word-book reading progress</li>
+    <li>Cached AI responses stored locally</li>
+    <li>The optional offline dictionary file, once downloaded</li>
+  </ul>
+  <p>These items are not uploaded to LexiFlow or Supabase.</p>
+
+  <h2>Synced when signed in</h2>
+  <p>If you sign in, <strong>My Vocabulary</strong> and <strong>review progress</strong> (word text, meanings, FSRS scheduling, favorites, output flags, and related learning state) are stored in Supabase under your account so Mac and iPhone stay in sync. Only you can read or change your rows.</p>
+  <p>Sync requires network access. If you never sign in, vocabulary stays entirely on each device.</p>
+
+  <h2>Account</h2>
+  <p>You can sign in with Apple or with email and password. Apple may share a private relay address instead of your real email. Credentials go to Supabase Auth. The app does not store your password. A session token is kept in the system Keychain so you can stay signed in.</p>
+  <p>Optional <strong>Pro</strong> is billed by Apple as an auto-renewing subscription; Apple processes payment and subscription status.</p>
+
+  <h2>Contextual AI</h2>
+  <p>AI explanations require a signed-in account. The selected word, sentence, and a short surrounding excerpt are sent to the LexiFlow API on Supabase, which calls DeepSeek. Pro <strong>Active Use</strong> also sends the reviewed words, the Chinese prompt, and your English answer for grading. Dictionary lookup works without an account and does not send that context to DeepSeek.</p>
+  <p>AI requests are processed to generate a response and are not stored as a prompt log on the LexiFlow API.</p>
+
+  <h2>iPhone extensions</h2>
+  <ul>
+    <li><strong>Share extension</strong> — text you share is passed to the main app on your device to look up or save words; it is not sent to our servers except through the flows above (dictionary, AI, or sync).</li>
+    <li><strong>Widget &amp; Live Activity</strong> — show due-review counts from local data on your device.</li>
+  </ul>
+
+  <h2>Third parties</h2>
+  <ul>
+    <li>Apple — Sign in with Apple, subscriptions, Share extension, Widget, Live Activity</li>
+    <li>Supabase — account authentication, vocabulary sync, and API hosting</li>
+    <li>DeepSeek — contextual explanations and Active Use grading</li>
+    <li>Open Dictionary — word definitions (network lookup until a local dictionary is imported)</li>
+  </ul>
+  <p>We do not sell personal data or use it for advertising. The app does not track you across other companies’ apps or websites.</p>
+
+  <h2>Retention and deletion</h2>
+  <ul>
+    <li><strong>Sign out</strong> — removes the session token from this device; synced data remains on the server.</li>
+    <li><strong>Delete account</strong> (Settings) — removes your Supabase auth user and deletes synced vocabulary rows linked to that account. Words already saved locally on a device remain until you delete the app or clear app data on that device.</li>
+    <li><strong>Delete the app</strong> — removes local data on that device; does not delete your cloud account unless you delete the account first.</li>
+  </ul>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li>Use the dictionary without signing in</li>
+    <li>Sign in only when you want sync or AI</li>
+    <li>Sign out or delete your account in Settings</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: open Settings → Privacy Policy in the app, or email the developer address listed on the App Store product page.</p>
+
+  <hr/>
+  <h1 lang="zh-Hans">LexiFlow 隐私政策</h1>
+  <p class="meta">更新日期：2026 年 8 月 22 日</p>
+  <p>LexiFlow 是 Mac 与 iPhone 上的英语词汇 App。下文说明哪些数据只在本机、哪些会在登录后同步、哪些会用于 AI。</p>
+
+  <h2>仅保存在本机</h2>
+  <ul>
+    <li>查词遇见记录（何时何地查过哪些词）</li>
+    <li>App 设置与偏好</li>
+    <li>词书阅读进度</li>
+    <li>本地缓存的 AI 结果</li>
+    <li>可选的离线词典文件</li>
+  </ul>
+  <p>以上内容不会上传到 LexiFlow 或 Supabase。</p>
+
+  <h2>登录后同步</h2>
+  <p>登录后，<strong>我的词库</strong>与<strong>复习进度</strong>（词条、释义、FSRS 排程、收藏、输出练习标记等学习状态）会存入 Supabase 账号下，以便 Mac 与 iPhone 保持一致。只有本人可读写自己的数据。</p>
+  <p>同步需要网络。不登录则词库完全留在各设备本地。</p>
+
+  <h2>账号</h2>
+  <p>可用 Apple ID 或邮箱密码登录。Apple 可能提供隐藏邮箱。凭证由 Supabase Auth 处理；App 不保存密码，登录态保存在系统钥匙串。可选 <strong>Pro</strong> 订阅由 Apple 扣款。</p>
+
+  <h2>语境 AI</h2>
+  <p>语境解释需登录。选中的词、句子和一小段上下文会发到 Supabase 上的 LexiFlow API，再由 DeepSeek 生成解释。Pro <strong>输出练习</strong>还会发送刚复习的词、中文提示和你写的英文。不登录仍可查词典，且不会把上述内容发给 DeepSeek。</p>
+  <p>AI 请求仅用于生成回复，LexiFlow API 不会长期保存提示词日志。</p>
+
+  <h2>iPhone 扩展</h2>
+  <ul>
+    <li><strong>分享扩展</strong> — 分享的文字在本机交给主 App 查词或加入词库；除词典、AI、同步上述流程外不会额外上传。</li>
+    <li><strong>小组件与实时活动</strong> — 用本机数据展示待复习数量。</li>
+  </ul>
+
+  <h2>第三方</h2>
+  <ul>
+    <li>Apple — 通过 Apple 登录、订阅、分享扩展、小组件、实时活动</li>
+    <li>Supabase — 账号认证、词库同步与 API 托管</li>
+    <li>DeepSeek — 语境解释与输出练习评分</li>
+    <li>Open Dictionary — 在线释义（导入本地词典前）</li>
+  </ul>
+  <p>不出售个人数据，不做跨 App 广告追踪。</p>
+
+  <h2>保留与删除</h2>
+  <ul>
+    <li><strong>退出登录</strong> — 清除本机登录态；云端同步数据仍保留。</li>
+    <li><strong>删除账号</strong>（设置内）— 删除 Supabase 账号及关联的同步词库行；各设备上已存在的本地词库需删除 App 或清除数据才会消失。</li>
+    <li><strong>删除 App</strong> — 仅清除该设备本地数据；不会自动删除云端账号。</li>
+  </ul>
+
+  <h2>你的选择</h2>
+  <ul>
+    <li>不登录也可使用词典</li>
+    <li>仅在需要同步或 AI 时登录</li>
+    <li>在设置中退出登录或删除账号</li>
+  </ul>
+
+  <h2>联系</h2>
+  <p>有关本政策的疑问：在 App 内打开 设置 → 隐私政策，或通过 App Store 产品页上的开发者邮箱联系。</p>
+</body>
+</html>
