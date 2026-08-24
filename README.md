@@ -1,7 +1,8 @@
 # Lanci (览辞)
 
-Public legal pages for the Lanci app.
+Public legal and support pages for the Lanci app.
 
 - Privacy policy: https://sebaWEI.github.io/lanci/privacy.html
+- Support: https://sebaWEI.github.io/lanci/support.html
 
-Source is edited in the main app repo at `docs/privacy.html` and synced with `Scripts/sync-privacy-to-github.sh`.
+Edit `docs/privacy.html` and `docs/support.html` in the main app repo, then run `Scripts/sync-privacy-to-github.sh`.
